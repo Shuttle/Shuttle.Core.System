@@ -1,9 +1,7 @@
-﻿using System.Diagnostics;
-
-namespace Shuttle.Core.System
+﻿namespace Shuttle.Core.System
 {
     public interface IProcessService
     {
-        Process GetCurrentProcess();
+        IProcess GetCurrentProcess();
     }
 }

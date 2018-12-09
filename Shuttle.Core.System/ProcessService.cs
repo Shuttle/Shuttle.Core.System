@@ -4,9 +4,9 @@ namespace Shuttle.Core.System
 {
     public class ProcessService : IProcessService
     {
-        public Process GetCurrentProcess()
+        public IProcess GetCurrentProcess()
         {
-            return Process.GetCurrentProcess();
+            return new SystemProcess(Process.GetCurrentProcess());
         }
     }
 }
