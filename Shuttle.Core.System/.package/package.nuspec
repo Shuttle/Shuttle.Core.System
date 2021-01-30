@@ -3,7 +3,7 @@
 <package>
 	<metadata>
 		<id>Shuttle.Core.System</id>
-		<version>10.0.2</version>
+		<version>10.0.3</version>
 		<authors>Eben Roux</authors>
 		<owners>Eben Roux</owners>
 		<license type="expression">BSD-3-Clause</license>
@@ -12,10 +12,10 @@
 		<repository type="git" url="https://github.com/shuttle/Shuttle.Core.System.git" />
 		<projectUrl>https://github.com/shuttle/Shuttle.Core.System</projectUrl>
 		<description>OS and system level abstractions.</description>
-		<copyright>Copyright (c) 2020, Eben Roux</copyright>
+		<copyright>Copyright (c) 2021, Eben Roux</copyright>
 		<tags>shuttle</tags>
 		<dependencies>
-      <dependency id="Shuttle.Core.Container" version="11.2.1" />
+      <dependency id="Shuttle.Core.Container" version="11.2.2" />
 		</dependencies>
 	</metadata>
 	<files>
