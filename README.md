@@ -28,11 +28,11 @@ Return `true` if running as a console application; else `false`.
 
 ## IProcessService
 
- The default implementation is `ProcessService`.
+The default implementation is `ProcessService`.
 
- ``` c#
- IProcess GetCurrentProcess();
- ```
+``` c#
+IProcess GetCurrentProcess();
+```
 
  Returns the `IProcess` abstraction for the current process.
 
