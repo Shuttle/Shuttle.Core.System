@@ -9,7 +9,7 @@ namespace Shuttle.Core.System
 
         public SystemProcess(Process process)
         {
-            _process = Guard.AgainstNull(process, nameof(process)); 
+            _process = Guard.AgainstNull(process); 
         }
 
         public void Kill()
