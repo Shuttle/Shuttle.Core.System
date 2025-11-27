@@ -1,9 +1,6 @@
-﻿using System;
+﻿namespace Shuttle.Core.System;
 
-namespace Shuttle.Core.System
+public class SystemClock : ISystemClock
 {
-    public class SystemClock : ISystemClock
-    {
-        public DateTimeOffset UtcNow => DateTimeOffset.UtcNow;
-    }
+    public DateTimeOffset UtcNow => DateTimeOffset.UtcNow;
 }

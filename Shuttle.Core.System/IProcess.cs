@@ -1,7 +1,6 @@
-﻿namespace Shuttle.Core.System
+﻿namespace Shuttle.Core.System;
+
+public interface IProcess
 {
-    public interface IProcess
-    {
-        void Kill();
-    }
+    void Kill();
 }

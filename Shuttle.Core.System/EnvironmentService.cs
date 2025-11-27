@@ -1,9 +1,6 @@
-﻿using System;
+﻿namespace Shuttle.Core.System;
 
-namespace Shuttle.Core.System
+public class EnvironmentService : IEnvironmentService
 {
-    public class EnvironmentService : IEnvironmentService
-    {
-        public bool UserInteractive => Environment.UserInteractive;
-    }
+    public bool UserInteractive => Environment.UserInteractive;
 }

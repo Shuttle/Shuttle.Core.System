@@ -1,7 +1,6 @@
-﻿namespace Shuttle.Core.System
+﻿namespace Shuttle.Core.System;
+
+public interface IEnvironmentService
 {
-    public interface IEnvironmentService
-    {
-        bool UserInteractive { get; }
-    }
+    bool UserInteractive { get; }
 }

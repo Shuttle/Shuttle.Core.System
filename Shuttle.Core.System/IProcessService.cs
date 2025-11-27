@@ -1,7 +1,6 @@
-﻿namespace Shuttle.Core.System
+﻿namespace Shuttle.Core.System;
+
+public interface IProcessService
 {
-    public interface IProcessService
-    {
-        IProcess GetCurrentProcess();
-    }
+    IProcess GetCurrentProcess();
 }
