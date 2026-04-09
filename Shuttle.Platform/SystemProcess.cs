@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
-using Shuttle.Core.Contract;
+using Shuttle.Contract;
 
-namespace Shuttle.Core.System
+namespace Shuttle.Platform
 {
     public class SystemProcess(Process process) : IProcess
     {

@@ -3,5 +3,5 @@
     <File Path="LICENSE" />
     <File Path="README.md" />
   </Folder>
-  <Project Path="Shuttle.Core.System/Shuttle.Core.System.csproj" />
+  <Project Path="Shuttle.Platform/Shuttle.Platform.csproj" />
 </Solution>

@@ -1,4 +1,4 @@
-﻿namespace Shuttle.Core.System;
+﻿namespace Shuttle.Platform;
 
 public interface IProcess
 {

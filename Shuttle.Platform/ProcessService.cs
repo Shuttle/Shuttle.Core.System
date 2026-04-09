@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Shuttle.Core.System;
+namespace Shuttle.Platform;
 
 public class ProcessService : IProcessService
 {
