@@ -13,12 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Shuttle.Contract" Version="21.0.1-rc3" />
+    <PackageReference Include="Shuttle.Contract" Version="21.0.1" />
   </ItemGroup>
 
   <PropertyGroup>
     <Description>OS and system level abstractions.</Description>
-    <Version>21.0.1-rc3</Version>
+    <Version>21.0.1</Version>
     <PackageProjectUrl>https://github.com/shuttle/Shuttle.Platform</PackageProjectUrl>
     <RepositoryUrl>https://github.com/shuttle/Shuttle.Platform.git</RepositoryUrl>
     <PackageTags>shuttle</PackageTags>
